@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "62b4411f6cd9a52fb752e6d3"
+  },
+  "username": "hello2",
+  "password": "$2b$10$FR1JICS9iTLloXidsEKCR.TrZnYnocSYoOyuD2w9jLQ.a/637tFMK",
+  "created_at": {
+    "$date": {
+      "$numberLong": "1655980319756"
+    }
+  },
+  "__v": 0
+}]

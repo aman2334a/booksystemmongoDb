@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "62b4477e87cbe8b651fd433a"
+  },
+  "name": "hello2 uodated",
+  "price": "1234",
+  "author": "1234",
+  "created_by": "62b4411f6cd9a52fb752e6d3",
+  "__v": 0
+}]

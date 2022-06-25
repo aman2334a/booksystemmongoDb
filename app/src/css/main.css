@@ -1,0 +1,177 @@
+.mainApp{
+    margin: 20px;
+}
+.login{
+    width: 32%;
+    margin-left: 35%;
+}
+.signup{
+    width: 32%;
+    margin-left: 35%;
+}
+
+input[type=text],input[type=number], input[type=email], input[type=password], input[type=button], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=button] {
+    background-color: #addfaf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: #04AA6D;
+
+  }
+  .detail-edit-form-section{
+      padding: 40px;
+  }
+
+  form{
+      display: grid;
+  }
+  .heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 6%;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  span.errormsg {
+    color: #ee1f1f;
+}
+.outerDiv{
+  padding: 10px;
+  margin: 0px 15%;
+  border-radius: 4px;
+}
+.addDiv {
+  margin: 30px 0px;
+  background: #f4f4f4;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.addDivInputs{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 82px;
+}
+
+.createbtn {
+  background: #009868;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+}
+.homeCreateBtn{
+  right: 16%;
+  position: absolute;
+}
+.ShowDiv{
+  margin: 10% 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.header {
+  display: flex;
+  margin: 30px 0px;
+  min-height: 30px;
+  padding: 10px 20px;
+  background: #464657;
+  justify-content: space-between;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.columnsHeadings {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  min-height: 30px;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+.logoutBtn{
+  background: #242436;;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+}
+
+
+
+.columnsHeadings .column {
+    font-weight: 600;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  min-height: 30px;
+  background: antiquewhite;
+  PADDING: 10px 20px;
+  border-radius: 10px;
+
+}
+.column {
+  min-width: 20%;
+  text-align: left;
+}
+
+.customEditBtn{
+  display: flex;
+  width: 34px;
+  gap: 4px;
+  height: 20px;
+  border: 1px solid #009868;
+  border-radius: 4px;
+  color: #009868;
+  cursor: pointer;
+  padding: 0px 0px 1px 4px;
+
+}
+
+.main_search{
+  float: right;
+  width: 29%;
+  text-align: right;
+  display: flex;
+  gap: 3%;
+}
+.searchBtn{
+  background: #1d2120;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  margin-top: 7px;
+  height: 38px;
+  color: #fff;
+  font-size: 15px;
+
+}
+.searchBox{
+  width: 100%;
+}
+
